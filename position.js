@@ -5,17 +5,25 @@
 
 function pos(list, target){
     //check the list for any duplicates
-
-    var result = [];
-    for(var i = 0; i < list.length; i++){
-        if(list[i] === result[i]){
+   var cursor = 0;
+   while ((list[cursor] <= target) && cursor < list.length){
+       if (list[cursor] === target){
+           return cursor;
+       }
+        cursor++;
+   }
+    return cursor;
+};
+   /* var result = [];
+    for(var i = 0; i < list.length; i++) {
+        if (list[i] === result[i]) {
             // don't push
         }
-        else{
+        else {
             result.push(list[i])
 
         }
-
+    }
     // sort it
         result.sort();
 
@@ -33,9 +41,9 @@ function pos(list, target){
             return j;
         }
     }
-    }
-    return result;
-};
 
-list1 = [3,4,1,10];
-console.log(pos(list1, 10));
+    return result; */
+
+
+list1 = [1,3,5,6];
+console.log(pos(list1,2));
