@@ -4,17 +4,19 @@
 // 1 given an array we give the index back with position of it in the array
 
 function pos(list, target){
-    //check the list for any duplicates
-   var cursor = 0;
-   while ((list[cursor] <= target) && cursor < list.length){
-       if (list[cursor] === target){
+    var cursor = 0;
+    while(list[cursor] <= target && cursor < list.length)
+    {
+       if(list[cursor] === target){
            return cursor;
        }
-        cursor++;
-   }
+       cursor++;
+    }
     return cursor;
 };
-   /* var result = [];
+
+
+/*var result = [];
     for(var i = 0; i < list.length; i++) {
         if (list[i] === result[i]) {
             // don't push
@@ -42,8 +44,8 @@ function pos(list, target){
         }
     }
 
-    return result; */
-
+    return result;
+*/
 
 list1 = [1,3,5,6];
 console.log(pos(list1,2));
