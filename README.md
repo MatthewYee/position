@@ -27,7 +27,7 @@ This Repository is a solution to the position of elements challenge by Santiago,
 #Usage
 Below is how to use the program 
 
-1. You need to have the PositionSpec.js file test the design of the program
+You need to have the PositionSpec.js file test the design of the program
 ```
 /*global pos*/
 /*export pos*/
