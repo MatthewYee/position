@@ -2,7 +2,14 @@
  * Created by MGY on 9/23/2015.
  */
 // 1 given an array we give the index back with position of it in the array
-
+/*global pos */
+/*export pos*/
+/**
+ * Finds the position in the array of Num where num should be inserted
+ * @param list : The array of numbers
+ * @param target : The number to be inserted
+ * @returns : The
+ */
 function pos(list, target){
     var cursor = 0;
     while(list[cursor] <= target && cursor < list.length)
@@ -13,7 +20,7 @@ function pos(list, target){
        cursor++;
     }
     return cursor;
-};
+}
 
 
 /*var result = [];
@@ -47,5 +54,3 @@ function pos(list, target){
     return result;
 */
 
-list1 = [1,3,5,6];
-console.log(pos(list1,2));
