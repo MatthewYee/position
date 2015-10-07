@@ -3,7 +3,7 @@ This Repository is a solution to the position of elements challenge by Santiago,
 
 #Installation
 
-1. You need to have the following script with Jasmine tools
+* You need to have the following script with Jasmine tools
 ```
 <title>Jasmine Spec Runner v2.3.4</title>
 
@@ -15,7 +15,7 @@ This Repository is a solution to the position of elements challenge by Santiago,
   <script src="lib/jasmine-2.3.4/boot.js"></script>
 
 ```
-2. You need to insert the the file to run the jasmine tools which is the PositionSpec.js and position.js
+* You need to insert the the file to run the jasmine tools which is the PositionSpec.js and position.js
 ```
 <!-- include source files here... -->
   <script src="position.js"></script>
