@@ -54,6 +54,7 @@ describe("Position", function() {
 
 });
 ```
+You should have a same picture as the ![screenshot]( )
 
 #Credit 
 Use the [Underscore] (http://underscorejs.org/) Library and the [Jasmine](http://jasmine.github.io/2.3/introduction.html)
