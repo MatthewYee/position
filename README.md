@@ -54,7 +54,7 @@ describe("Position", function() {
 
 });
 ```
-You should have a same picture as the ![screenshot]( )
+You should have a same picture as a [screenshot](https://raw.githubusercontent.com/MatthewYee/position/master/doc/test-1.png)
 
 #Credit 
 Use the [Underscore] (http://underscorejs.org/) Library and the [Jasmine](http://jasmine.github.io/2.3/introduction.html)
